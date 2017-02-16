@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="1.7976931348623157E308" maxWidth="-Infinity" minWidth="-Infinity" stylesheets="@TradeCalc.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.judison.tradecalc.Main">
+   <center>
+      <ScrollPane fitToWidth="true" maxWidth="1.7976931348623157E308" prefHeight="500.0" vbarPolicy="ALWAYS" BorderPane.alignment="CENTER">
+         <content>
+            <FlowPane fx:id="parent" columnHalignment="CENTER" hgap="5.0" prefHeight="200.0" prefWidth="560.0" rowValignment="TOP" vgap="5.0">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </FlowPane>
+         </content>
+      </ScrollPane>
+   </center>
+   <top>
+      <ToolBar prefHeight="40.0" BorderPane.alignment="CENTER">
+        <items>
+            <TextField fx:id="edtName" />
+          <Button mnemonicParsing="false" onAction="#add" text="Add" />
+        </items>
+      </ToolBar>
+   </top>
+</BorderPane>
