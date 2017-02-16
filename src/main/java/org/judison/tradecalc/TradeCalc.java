@@ -148,4 +148,8 @@ public class TradeCalc {
 
 	}
 
+	public void requestFocus() {
+		edtBuyInventment.requestFocus();
+	}
+
 }

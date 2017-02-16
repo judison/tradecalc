@@ -22,7 +22,7 @@
    <top>
       <ToolBar prefHeight="40.0" BorderPane.alignment="CENTER">
         <items>
-            <TextField fx:id="edtName" />
+            <TextField fx:id="edtName" onKeyPressed="#keyDown" />
           <Button mnemonicParsing="false" onAction="#add" text="Add" />
         </items>
       </ToolBar>

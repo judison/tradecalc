@@ -30,7 +30,7 @@
                   <Label text="Gr. Amount" GridPane.columnSpan="2" GridPane.rowIndex="2" />
                   <Label text="Buy Fee" GridPane.rowIndex="3" />
                   <Label text="Net Amount" GridPane.columnSpan="2" GridPane.rowIndex="4" />
-                  <TextField fx:id="edtBuyInventment" alignment="CENTER_RIGHT" maxWidth="-Infinity" minWidth="-Infinity" onAction="#onCalculate" onKeyTyped="#onKeyTyped" prefHeight="26.0" prefWidth="110.0" text="0.00000000" GridPane.columnIndex="2" />
+                  <TextField fx:id="edtBuyInventment" alignment="CENTER_RIGHT" maxWidth="-Infinity" minWidth="-Infinity" onAction="#onCalculate" onKeyTyped="#onKeyTyped" prefHeight="26.0" prefWidth="110.0" styleClass="x" text="0.00000000" GridPane.columnIndex="2" />
                   <TextField fx:id="edtBuyPrice" alignment="CENTER_RIGHT" maxWidth="-Infinity" minWidth="-Infinity" onAction="#onCalculate" onKeyTyped="#onKeyTyped" prefHeight="26.0" prefWidth="110.0" text="0.00000000" GridPane.columnIndex="2" GridPane.rowIndex="1" />
                   <TextField fx:id="edtBuyGrossAmount" alignment="CENTER_RIGHT" editable="false" focusTraversable="false" layoutX="129.0" layoutY="39.0" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="110.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
                   <TextField fx:id="edtBuyFeeValue" alignment="CENTER_RIGHT" editable="false" focusTraversable="false" layoutX="129.0" layoutY="60.0" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="110.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
